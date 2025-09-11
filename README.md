@@ -18,7 +18,7 @@ Supports **Linux (systemd)**, **macOS (launchd)**, and **Windows (Task Scheduler
 
 ### Linux & macOS
 ```bash
-git clone https://github.com/yourusername/wifi-auto-login.git
+git clone https://github.com/dipanshu-tiwari/NITC-wifi-auto-login.git
 cd wifi-auto-login
 chmod +x setup.sh
 ./setup.sh
