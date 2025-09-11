@@ -1,0 +1,10 @@
+[Unit]
+Description=Wifi Auto Login Script
+After=network-online.target
+
+[Service]
+ExecStart=%h/.wifi_auto_login/login.sh
+Restart=always
+
+[Install]
+WantedBy=default.target
